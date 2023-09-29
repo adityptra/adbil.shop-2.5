@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="focus.css">
+    <link rel="shortcut icon" href="../img/logo-fav.png" type="image/x-icon">
+    <title>AdBiL SHOP</title>
+</head>
+
+<body>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="">Colection</a></li>
+            <li><a href="">Payment</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <i class="fa-solid fa-x bars-close" onclick="tutup() "></i>
+                <!-- <img src="hamburger-menu-svgrepo-com.svg" alt="" onclick="muncul()" class="bars-active" id="bars"> -->
+                <i onclick="muncul()" class="fa-solid fa-bars bars-active" id="bars"></i>
+                <a href="" id="li">Login </a>
+                <span class="span" style="user-select: none;"> / </span>
+                <a href="" id="li-2"> Register</a>
+            </div>
+            <div class="navbar-center">
+                <a href="../index.html" style="text-decoration: none;"><h2>AdBiL</h2></a>
+            </div>
+            <div class="navbar-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-heart">
+                    <p id="value-wish">1</p>
+                </i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- scroll -->
+    <div class="swiper" tipe =  data-swiper-autoplay="3000">
+  
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper"  data-swiper-autoplay="3000">
+            <!-- Slides -->
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+
+                <!-- home 1 start -->
+                <div class="home1">
+
+                    <!-- navbar -->
+
+
+                    <!-- navbar end -->
+                    <!-- main content -->
+                    <div class="main">
+                        <div class="main-right2" id="image">
+                            <img src="../img/main-shoes.png" alt="" style="filter: hue-rotate(-125deg);">
+                            <p>FLOW BLUE</p>
+                        </div>
+                        <div class="main-left">
+                            <h5>New Era</h5>
+                            <h3>NIKE FLOW BLUE</h3>
+                            <img src="rating-svgrepo-com.svg" alt="">
+                            <div class="price">
+                                <p>Rp. <p id="quantity">199.999</p></p>
+                            </div>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto enim
+                                laboriosam, error nihil voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Accusamus adipisci non itaque animi? Nemo doloremque voluptatum accusantium
+                                nostrum, accusamus inventore.</P>
+                            <div class="add-cart">
+                                <div class="wrapper">
+                                    <span class="minus">-</span>
+                                    <span class="num">01</span>
+                                    <span class="plus">+</span>
+                                </div>
+                                <div class="add">
+                                    <a href="#"><button type="submit">Add to cart</button></a>
+                                </div>
+                            </div>
+                            <div class="love wish">
+                                <!-- <img src="lope.svg" alt="" id="lope"> -->
+                                <h5 id="lope">&#10084</h5>
+                                <h5 id="wish">Wish this product</h5></label>
+                                <img src="/svg/refresh-cw-alt-3-svgrepo-com.svg" alt="" id="ref">
+                                <h5 id="exa">Reset Value</h5>
+                            </div>
+                            <div class="categ">
+                                <p><span style="color: #000;  font-family: 'Montserrat', sans-serif; font-weight: 600;">Categories :</span> Shoes, Outfit & Style</p>
+                                <p><span style="color: #000; font-family: 'Montserrat', sans-serif; font-weight: 600;">Tag :</span> Shoes</p>
+                            </div>
+                        </div>
+
+                        <!-- home 1 -->
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+                <script src="main.js"></script>
+                <script src="../adbil.js"></script>
+</body>
+
+</html>
